@@ -15,4 +15,6 @@
 
 
 - (void) goToDirection: (NSString*)direction;
+- (void) incrementAge;
+
 @end

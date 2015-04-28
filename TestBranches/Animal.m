@@ -14,4 +14,8 @@
     NSLog(@"go to %@", direction);
 }
 
+- (void) incrementAge {
+    self.age += 1;
+}
+
 @end
