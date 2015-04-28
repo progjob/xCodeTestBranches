@@ -30,9 +30,6 @@
     
     Animal *a1 = [[Animal alloc] init];
     a1.age = 3;
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
