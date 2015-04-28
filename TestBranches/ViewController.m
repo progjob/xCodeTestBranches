@@ -27,6 +27,11 @@
     m1.name = @"NBAH";
     [m1 goToDirection: @"forward"];
 
+    
+    Man *m2 = [Man new];
+    m2.name = @"NBAH";
+    [m2 goToDirection: @"forward"];
+
 }
 
 - (void)didReceiveMemoryWarning {
