@@ -18,18 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    Animal *a1 = [[Animal alloc] init];
-    a1.age = 3;
-    
-    
+
     Man *m1 = [Man new];
     m1.name = @"NBAH";
     [m1 goToDirection: @"forward"];
-    
-    
-    Animal *a1 = [[Animal alloc] init];
-    a1.age = 3;
+
 }
 
 - (void)didReceiveMemoryWarning {
