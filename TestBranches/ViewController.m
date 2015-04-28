@@ -19,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+//
+    //
+        //
+
     Man *m1 = [Man new];
     m1.name = @"NBAH";
     [m1 goToDirection: @"forward"];
