@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Man.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Man *m1 = [Man new];
+    m1.name = @"NBAH";
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
