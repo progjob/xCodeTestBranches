@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Animal.h"
 
-@interface Man : NSObject
+@interface Man : Animal
 
 @property (strong, nonatomic) NSString *name;
 
