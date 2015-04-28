@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Man.h"
+#import "Animal.h"
 
 @interface ViewController ()
 
@@ -18,8 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    Man *m1 = [Man new];
-    m1.name = @"NBAH";
+//    Man *m1 = [Man new];
+//    m1.name = @"NBAH";
+    
+    
+    Animal *a1 = [[Animal alloc] init];
+    a1.age = 3;
+    
     
     
 }

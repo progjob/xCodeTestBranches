@@ -11,5 +11,6 @@
 @interface Animal : NSObject
 
 @property (assign, nonatomic) NSInteger age;
+@property (strong, nonatomic) NSInteger speed;
 
 @end
