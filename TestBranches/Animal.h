@@ -11,11 +11,8 @@
 @interface Animal : NSObject
 
 @property (assign, nonatomic) NSInteger age;
-@property (strong, nonatomic) NSInteger speed;
+@property (assign, nonatomic) NSInteger speed;
 
 
-- (void) goToDirection: (NSString*)direction {
-    NSLog(@"go to %@", direction);
-}
-
+- (void) goToDirection: (NSString*)direction;
 @end

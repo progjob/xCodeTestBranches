@@ -10,4 +10,8 @@
 
 @implementation Animal
 
+- (void) goToDirection: (NSString*)direction {
+    NSLog(@"go to %@", direction);
+}
+
 @end
