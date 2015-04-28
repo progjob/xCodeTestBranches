@@ -23,6 +23,12 @@
     m1.name = @"NBAH";
     [m1 goToDirection: @"forward"];
     
+    
+    Animal *a1 = [[Animal alloc] init];
+    a1.age = 3;
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
