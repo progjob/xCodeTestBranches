@@ -10,11 +10,14 @@
 
 @interface Animal : NSObject
 
+
 @property (assign, nonatomic) NSInteger age;
 @property (assign, nonatomic) NSInteger speed;
 
 
-- (void) goToDirection: (NSString*)direction;
 - (void) incrementAge;
+- (void) upSpeedIn: (NSInteger)value;
+- (void) goToDirection: (NSString*)direction;
+
 
 @end

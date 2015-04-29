@@ -10,12 +10,19 @@
 
 @implementation Animal
 
-- (void) goToDirection: (NSString*)direction {
-    NSLog(@"go to %@", direction);
-}
 
 - (void) incrementAge {
     self.age += 1;
 }
 
+- (void) upSpeedIn: (NSInteger)value {
+    self.speed += value;
+}
+
+- (void) goToDirection: (NSString*)direction {
+    NSLog(@"go to %@", direction);
+}
+
+
 @end
+
